@@ -1,30 +1,23 @@
 webdriver.driver=appium
-serenity.restart.browser.for.each=NEVER
-webdriver.timeouts.implicitlywait=20000
-webdriver.wait.for.timeout=20000
 appium.autoGrantPermissions=true
 appium.deviceOrientation=portrait
 appium.captureScreenshots=true
 serenity.take.screenshots=AFTER_EACH_STEP
-serenity.logging=VERBOSE
-feature.file.encoding=utf8
-serenity.report.encoding=utf8
-feature.file.language=es
 appium.sessionName=Automation test session
-appium.automationName=XCUITest
+
 #
 #Device capabilities
 #
-appium.deviceName=iPhone 13
-appium.platformVersion=15.2
-appium.udid=8EB27F61-055D-45C6-B1F0-5E2D6E10546B
+appium.automationName=XCUITest
 appium.platformName=iOS
+appium.deviceName=iPhone 11 Pro
+appium.platformVersion=14
+appium.udid=0BB8091F-E452-4A8F-A2C6-728F63116633
+
 appium.hub=http://127.0.0.1:4723/wd/hub
-appium.bundleId=com.uberall.uberall
-appium.app=
+appium.bundleId=com.swaglabsmobileapp
+appium.app=https://github.com/saucelabs/sample-app-mobile/releases/download/2.7.1/iOS.RealDevice.SauceLabs.Mobile.Sample.app.2.7.1.ipa
 #
 #other capabilities
 #
-appium.noReset=false
 appium.autoAcceptAlerts=true
-appium.waitForQuiescence=false
