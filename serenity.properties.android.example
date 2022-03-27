@@ -1,0 +1,25 @@
+#Generic Capabilities
+webdriver.driver=appium
+serenity.restart.browser.for.each=NEVER
+webdriver.timeouts.implicitlywait=20000
+webdriver.wait.for.timeout=20000
+appium.autoGrantPermissions=true
+appium.deviceOrientation=portrait
+appium.captureScreenshots=true
+serenity.take.screenshots=AFTER_EACH_STEP
+feature.file.encoding=utf8
+serenity.report.encoding=utf8
+feature.file.language=es
+appium.fullReset = true
+appium.unicodeKeyboard= true
+appium.resetKeyboard= true
+appium.sessionName=Automation test session
+
+#Android Capabilities
+appium.deviceName=Xiaomi Redmi Note 9
+appium.platformVersion=10.0
+appium.platformName=Android
+appium.hub=http://127.0.0.1:4723/wd/hub
+appium.app=/Users/seorozcope/Documents/working-folder/ub_mobile_app/build/app/outputs/flutter-apk/app-debug.apk
+appium.appPackage = com.uberall.uberall
+appium.appActivity = com.uberall.uberall.MainActivity
