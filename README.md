@@ -5,7 +5,7 @@ UI mobile testing base project using Serenity BDD and Journey Pattern
 
 * [Appium environment setup](./setup/summary.md)
 * [Using appium inspector](./setup/AppiumInspectorMappingSessions.md)
-* [Example code using Appium + Serenity BDD for UI Mobile testing automation]()
+* [Example code using Appium + Serenity BDD for UI Mobile testing automation](https://github.com/seorozcope/mobile-testing-serenitybdd/tree/MobileExample)
 
 
 ## Read more:
