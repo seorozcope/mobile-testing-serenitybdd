@@ -30,6 +30,7 @@ public class LoginStepsDefinition {
 
     @Then("client must be able to see the product list")
     public void theUserMustSeeTheControlPanel() {
+        //TODO Just create an awesome assertion
         theActorInTheSpotlight().attemptsTo();
     }
 }
