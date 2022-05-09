@@ -1,5 +1,8 @@
+#Generic Capabilities
+
 webdriver.driver=appium
-appium.autoGrantPermissions=true
+serenity.restart.browser.for.each=NEVER
+appium.autoAcceptAlerts=true
 appium.deviceOrientation=portrait
 appium.captureScreenshots=true
 serenity.take.screenshots=AFTER_EACH_STEP
@@ -17,7 +20,3 @@ appium.udid=0BB8091F-E452-4A8F-A2C6-728F63116633
 appium.hub=http://127.0.0.1:4723/wd/hub
 appium.bundleId=com.swaglabsmobileapp
 appium.app=https://github.com/saucelabs/sample-app-mobile/releases/download/2.7.1/iOS.RealDevice.SauceLabs.Mobile.Sample.app.2.7.1.ipa
-#
-#other capabilities
-#
-appium.autoAcceptAlerts=true

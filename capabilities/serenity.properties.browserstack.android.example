@@ -1,8 +1,9 @@
-serenity.logging=VERBOSE
-
 #Generic Capabilities
 webdriver.driver=appium
 serenity.restart.browser.for.each=NEVER
+autoWebview=true
+autoWebviewTimeout=20000
+ensureWebviewsHavePages=true
 appium.autoGrantPermissions=true
 appium.deviceOrientation=portrait
 appium.captureScreenshots=true
@@ -12,10 +13,10 @@ appium.resetKeyboard= true
 appium.sessionName=Automation test session
 
 #Android Capabilities
+appium.deviceName=Samsung Galaxy S21
+appium.platformVersion=11.0
 appium.platformName=Android
-appium.deviceName=Moto C Plus
-appium.platformVersion=7.0
-appium.hub=http://127.0.0.1:4723/wd/hub
-appium.app=https://github.com/saucelabs/sample-app-mobile/releases/download/2.7.1/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+appium.hub=https://BROWSERSTACK_USERNAME:BROWSERSTACK_ACCESS_KEY@hub-cloud.browserstack.com/wd/hub
+appium.app=bs://cd62f14bd374f520308de2863ae8647dcb09c7ed
 appium.appPackage=com.swaglabsmobileapp
 appium.appActivity=com.swaglabsmobileapp.MainActivity

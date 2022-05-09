@@ -1,0 +1,20 @@
+#Generic Capabilities
+webdriver.driver=appium
+serenity.restart.browser.for.each=NEVER
+appium.autoAcceptAlerts=true
+appium.deviceOrientation=portrait
+appium.captureScreenshots=true
+serenity.take.screenshots=AFTER_EACH_STEP
+appium.sessionName=Automation test session
+
+#
+#Device capabilities
+#
+appium.automationName=XCUITest
+#appium.deviceName=iPhone 11
+#appium.platformVersion=14
+appium.platformName=iOS
+appium.hub=https://BROWSERSTACK_USERNAME:BROWSERSTACK_ACCESS_KEY@hub-cloud.browserstack.com/wd/hub
+appium.bundleId=com.swaglabsmobileapp
+appium.app=bs://a974a2501bd26681fd4022307968521551e9b943
+

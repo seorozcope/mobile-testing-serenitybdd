@@ -1,9 +1,12 @@
 #Generic Capabilities
 webdriver.driver=appium
+serenity.restart.browser.for.each=NEVER
 appium.autoGrantPermissions=true
 appium.deviceOrientation=portrait
 appium.captureScreenshots=true
 serenity.take.screenshots=AFTER_EACH_STEP
+appium.unicodeKeyboard= true
+appium.resetKeyboard= true
 appium.sessionName=Automation test session
 
 #Android Capabilities
